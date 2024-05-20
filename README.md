@@ -31,6 +31,7 @@ st.write('This is a quickstart Streamlit app deployed on Aliyun ECS.')
 
 1. **启动应用**：在ECS实例的命令行中，运行`streamlit run app.py`来启动你的Streamlit应用。
 2. **访问应用**：在浏览器中访问`http://<ECS实例的IP地址>:8501`，你应该能看到你的Streamlit应用正在运行。
+3. **80端口应用**：如果想要80端口，对应命令为`sudo streamlit run app.py --server.port 80`来启动你的Streamlit应用。
 
 ### 注意事项
 
